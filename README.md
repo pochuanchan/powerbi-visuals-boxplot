@@ -1,7 +1,7 @@
 # Introduction:
 - This is a box plot visual using measures as inputs for big data.
 - Power BI visuals can only get up to 30,000 data points. It is not possible to use other available box and whisker chart visuals on the AppSource to visualize more than 30,000 data points.
-- Therefore, we made this custom visual to show the box plot using measures efficiently without issues, not limited by the number of data points.
+- Therefore, we made this custom visual to show the box plot using measures efficiently without issues, not limited by the number of data points. In other words, it works well with more than 30,000 data points.
 - The example dataset is taken from [2 million rows of data on homes for sale | Kaggle](https://www.kaggle.com/datasets/msorondo/argentina-venta-de-propiedades).
 
 
