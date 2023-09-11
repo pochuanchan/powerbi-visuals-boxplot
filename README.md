@@ -5,12 +5,22 @@
 - The example dataset is taken from [2 million rows of data on homes for sale | Kaggle](https://www.kaggle.com/datasets/msorondo/argentina-venta-de-propiedades).
 
 
-# Instructions:
+## Instructions:
 1. Calculate first quartile and third quartile using measures, for example:
 - q1 = PERCENTILE.EXC([price], 0.25)
 - q3 = PERCENTILE.EXC([price], 0.75)
 2. For Minimum, median, Maximum, Mean, and Count, it is possible to use either measures or quick measures.
 3. Drag/Select/Check the corresponding value in each input.
+
+## Supported Features:
+1. Sorting
+2. Virtual interactions, selections, highlight
+3. Tooltips
+4. Format pane
+5. Context menu
+6. Drill-down
+7. Colors, conditional formatting
+8. Sync slicers
 
 # Privacy:
 - The Power BI visuals do not collect any personal information. 
