@@ -7,8 +7,8 @@
 
 ## Instructions:
 1. Calculate first quartile and third quartile using measures, for example:
-- q1 = PERCENTILE.EXC([price], 0.25)
-- q3 = PERCENTILE.EXC([price], 0.75)
+- q1 = PERCENTILE.INC([price], 0.25)
+- q3 = PERCENTILE.INC([price], 0.75)
 2. For Minimum, median, Maximum, Mean, and Count, it is possible to use either measures or quick measures.
 3. Drag/Select/Check the corresponding value in each input.
 
