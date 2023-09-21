@@ -11,6 +11,15 @@
 - q3 = PERCENTILE.INC([price], 0.75)
 2. For Minimum, median, Maximum, Mean, and Count, it is possible to use either measures or quick measures.
 3. Drag/Select/Check the corresponding value in each input.
+4. In addition, it is possible to define your own upper and lower whiskers. For example, to plot without outliers (using IQR, one of the approaches), it is possible to use the following DAX (q0new as the lower whisker and q4new as the upper whisker):
+- q0 = MIN([price])
+- q1 = PERCENTILE.INC([price], 0.25)
+- q2 = MEDIAN([price])
+- q3 = PERCENTILE.INC([price], 0.75)
+- q4 = MAX([price])
+- IQR = [q3] - [q1]
+- q0new = MAX([q0], [q1] - 1.5 * [IQR])
+- q4new = MIN([q4], [q3] + 1.5 * [IQR])
 
 ## Supported Features:
 1. Sorting
